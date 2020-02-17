@@ -30,7 +30,7 @@ node default {
   #   class { 'my_class': }
 }
 
-node yorttown-harbor.lan1 {
+node 'yorttown-harbor.lan1' {
   class { 'motd':
     content => "Welcome to the Harbor\n",
   }

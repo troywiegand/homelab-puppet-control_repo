@@ -28,10 +28,10 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  class { 'motd': 
+    dynamic_motd => false,
+    template     => "puppet://{$::hostname}.motd",
+  }
 }
 
-node 'yorttown-harbor.lan1' {
-  class { 'motd':
-    content => "Welcome to the Harbor\n",
-  }
 }

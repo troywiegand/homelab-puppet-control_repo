@@ -29,3 +29,9 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node yorttown-harbor.lan1 {
+  class { 'motd':
+    content => "Welcome to the Harbor\n",
+  }
+}

@@ -33,5 +33,3 @@ node default {
     template     => "puppet://{$::hostname}.motd",
   }
 }
-
-}

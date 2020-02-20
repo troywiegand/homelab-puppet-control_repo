@@ -30,6 +30,6 @@ node default {
   #   class { 'my_class': }
   class { 'motd': 
     dynamic_motd => false,
-    content      => "Welcome to ${::hostname} !"
+    content      => "Welcome to ${facts['hostname']} !",
   }
 }

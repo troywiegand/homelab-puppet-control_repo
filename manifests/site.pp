@@ -30,6 +30,6 @@ node default {
   #   class { 'my_class': }
   class { 'motd': 
     dynamic_motd => false,
-    template     => "/home/troy/control-repo/files/${::hostname}.motd",
+    content      => "Welcome to ${::hostname} !"
   }
 }

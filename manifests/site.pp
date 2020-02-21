@@ -28,8 +28,4 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  class { 'motd': 
-    dynamic_motd => false,
-    content      => "Welcome to ${facts['hostname']} !",
-  }
 }

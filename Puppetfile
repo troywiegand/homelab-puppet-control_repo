@@ -1,6 +1,5 @@
 forge 'https://forge.puppet.com'
 
-mod 'puppetlabs-motd', '4.1.0'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start

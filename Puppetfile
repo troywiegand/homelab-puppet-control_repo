@@ -1,7 +1,7 @@
 forge 'https://forge.puppet.com'
 
 mod 'windows',
-  :git => "https://github.com/troywiegand/puppet-windows-management.git"
+  git: 'https://github.com/troywiegand/puppet-windows-management.git'
 
 
 # Modules from the Puppet Forge

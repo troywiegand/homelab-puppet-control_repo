@@ -31,6 +31,6 @@ node default {
 }
 
 
-node "windows-agent.lan1" {
-  include 'windows'
-}
+#node "windows-agent.lan1" {
+#  include 'windows'
+#}

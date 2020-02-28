@@ -32,5 +32,5 @@ node default {
 
 
 node "windows-agent.lan1" {
-  class { 'windows': }
+  include 'windows'
 }

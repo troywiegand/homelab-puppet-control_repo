@@ -1,5 +1,8 @@
 forge 'https://forge.puppet.com'
 
+mod 'windows',
+  :git => "https://github.com/troywiegand/puppet-windows-management.git"
+
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start

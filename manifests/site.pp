@@ -29,3 +29,8 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+
+node "windows-agent.lan1" {
+  class { 'windows': }
+}
